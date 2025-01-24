@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Great+Vibes&display=swap');
+
+
+
+/* Wrapper for the image and text */
+.image-container {
+  position: relative; /* Makes the container a positioning context */
+  display: inline-block; /* Keeps the container size relative to the image */
+  width: 100%; /* Full width of the parent */
+  overflow: hidden; /* Ensures the text doesn't spill outside the image */
+}
+
+/* Style for the image */
+.image-container img {
+  width: 100%; /* Image spans the entire width */
+  height: auto; /* Maintains aspect ratio */
+
+}
+
+/* Text overlay */
+.image-text {
+  position: absolute; /* Positioned relative to the container */
+  top: 15%; /* Pushes the text 20% from the top of the image */
+  left: 5%; /* Pushes the text 10% from the left of the image */
+  color: white; /* White text color for contrast */
+  font-size: 4.5rem; /* Font size */
+  font-weight: bold; /* Bold text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+  line-height: 1.5; /* Improves spacing for multi-line text */
+  font-family:'Dancing Script', cursive;
+  
+}
+
+.image-text p {
+  position: absolute; /* Positioned relative to the container */
+  top: 95%; /* Pushes the text 20% from the top of the image */
+  color: white; /* White text color for contrast */
+  font-size: 20px; /* Font size */
+  font-weight: 400; /* Bold text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+  line-height: 1.5; /* Improves spacing for multi-line text */
+
+}
+
+.image-text button {
+  position: absolute; /* Positioned relative to the container */
+  top: 100%; /* Pushes the text 20% from the top of the image */
+  color: rgb(255, 0, 0); /* White text color for contrast */
+  font-size: 20px; /* Font size */
+  line-height: 1.5; /* Improves spacing for multi-line text */
+  margin-top: 60px;
+  left: 1%;
+  margin-right: 30px;
+
+}
+
+.image-container .booktablebtn{
+  background-color: rgba(255, 255, 255, 0.142);
+  margin-left: 170px;
+  border: 2px red solid;
+  border-radius: 30px;
+  height: 50px;
+  width: 170px;
+  color: aliceblue;
+ top: 105%;
+}
+
+
+.image-container .menubtn{
+  background-color: rgba(255, 255, 255, 0.142);
+  border: 2px red solid;
+  border-radius: 30px;
+  height: 50px;
+  width: 150px;
+  color: aliceblue;
+  top: 105%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .image-text {
+    font-size: 1.5rem; /* Smaller text for smaller screens */
+    top: 15%; /* Adjusted position */
+    left: 5%; /* Adjusted position */
+  }
+}
