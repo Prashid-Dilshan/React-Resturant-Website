@@ -15,11 +15,14 @@ function App() {
 
     <Router>
       <div>
-      <nav className="navbar">
+
+ <nav className="navbar">
+
+  <div className='logo'>
+    <h2>PD Resturant<span>.</span></h2>
+  </div>
 
   <ul className='link'>
-
-  <li><Link to="/">PD Resturant</Link></li>
 
     <li><Link to="/">Home</Link></li>
     <li><Link to="/about">About</Link></li>
