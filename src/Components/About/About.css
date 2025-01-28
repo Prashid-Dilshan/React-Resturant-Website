@@ -1,0 +1,145 @@
+/* Style for the heading */
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-weight: 200;
+}
+
+/* Style for the highlighted span in the heading */
+h1 span {
+  color: rgb(255, 0, 0);
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* Style for the image */
+.aboutimg {
+  float: left; /* Floats the image to the left */
+  margin-right: 20px; /* Space between image and paragraph */
+  height: 450px; /* Adjust image height */
+  margin-left: 40px;
+}
+
+/* Style for the paragraph */
+.aboutp {
+  display: block; /* Ensures the paragraph stays block level */
+  margin-left: 20px; /* Adjust as needed for spacing */
+  font-size: 1.05rem; /* Adjust font size */
+  line-height: 1.5; /* Improves readability */
+  margin-top: 100px;
+  margin-right: 60px;
+  font-weight: 500;
+}
+
+p span{
+  color: red;
+}
+
+
+
+/* General Styles */
+.why-choose-us {
+  background-color: #ffffff;
+  padding: 120px 40px;
+  font-family: Arial, sans-serif;
+  margin-right: 200px;
+
+}
+
+/* Container Layout */
+.container {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Section */
+.left-section {
+  background-color: #e60000;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.left-section h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.left-section p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.left-section .learn-more {
+  display: inline-block;
+  background-color: white;
+  color: #e60000;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.left-section .learn-more:hover {
+  background-color: #f3f3f3;
+}
+
+/* Right Section */
+.right-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Card Styles */
+.card {
+  background-color: rgb(70, 63, 63);
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.card .icon {
+  background-color: #ffffff;
+  color: #e60000;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ff0000;
+  margin-top: 40px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.6;
+}
