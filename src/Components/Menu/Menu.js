@@ -10,50 +10,29 @@ const menuData = {
       name: "Crispy Tofu with Sweet Chili Sauce",
       description: "Extra-firm tofu, cornstarch, vegetable oil, sweet chili sauce, chopped cilantro, sesame seeds",
       price: "LKR 1600.00",
-      image: "/path-to-image/tofu.jpg",
+      image: "/Foods/1.png", 
     },
     {
       id: 2,
       name: "Vietnamese Spring Rolls",
       description: "Rice paper wrappers, rice vermicelli noodles, fresh herbs, carrots, bean sprouts, shrimp, dipping sauce",
       price: "LKR 1800.00",
-      image: "/path-to-image/spring-rolls.jpg",
+      image: "/Foods/2.png",
     },
     {
       id: 3,
       name: "Papaya Salad (Som Tum)",
       description: "Green papaya, cherry tomatoes, peanuts, dried shrimp, lime juice, fish sauce, palm sugar, chili",
       price: "LKR 1400.00",
-      image: "/path-to-image/papaya-salad.jpg",
+      image: "/Foods/3.png",
     },
     {
       id: 4,
       name: "Avocado Toast",
       description: "Toasted sourdough, smashed avocado, cherry tomatoes, and feta cheese",
       price: "LKR 1200.00",
-      image: "/path-to-image/avocado-toast.jpg",
+      image: "/Foods/4.png",
     },
-    {
-      id: 5,
-      name: "Pancakes with Honey",
-      description: "Fluffy pancakes served with honey and fresh fruits",
-      price: "LKR 1300.00",
-      image: "/path-to-image/pancakes.jpg",
-    },
-    {
-      id: 6,
-      name: "Grilled Chicken with Rice",
-      description: "Grilled chicken breast served with steamed rice and veggies",
-      price: "LKR 1800.00",
-      image: "/path-to-image/grilled-chicken.jpg",
-    },
-    {
-      id: 7,
-      name: "Salmon Steak",
-      description: "Grilled salmon steak with mashed potatoes and lemon butter sauce",
-      price: "LKR 2500.00",
-      image: "/path-to-image/salmon.jpg",
-    }
 
 
   ],
@@ -67,50 +46,29 @@ const menuData = {
       name: "Crispy Tofu with Sweet Chili Sauce",
       description: "Extra-firm tofu, cornstarch, vegetable oil, sweet chili sauce, chopped cilantro, sesame seeds",
       price: "LKR 1600.00",
-      image: "/path-to-image/tofu.jpg",
+      image: "/Foods/4.png", 
     },
     {
       id: 2,
       name: "Vietnamese Spring Rolls",
       description: "Rice paper wrappers, rice vermicelli noodles, fresh herbs, carrots, bean sprouts, shrimp, dipping sauce",
       price: "LKR 1800.00",
-      image: "/path-to-image/spring-rolls.jpg",
+      image: "/Foods/3.png",
     },
     {
       id: 3,
       name: "Papaya Salad (Som Tum)",
       description: "Green papaya, cherry tomatoes, peanuts, dried shrimp, lime juice, fish sauce, palm sugar, chili",
       price: "LKR 1400.00",
-      image: "/path-to-image/papaya-salad.jpg",
+      image: "/Foods/2.png",
     },
     {
       id: 4,
       name: "Avocado Toast",
       description: "Toasted sourdough, smashed avocado, cherry tomatoes, and feta cheese",
       price: "LKR 1200.00",
-      image: "/path-to-image/avocado-toast.jpg",
+      image: "/Foods/1.png",
     },
-    {
-      id: 5,
-      name: "Pancakes with Honey",
-      description: "Fluffy pancakes served with honey and fresh fruits",
-      price: "LKR 1300.00",
-      image: "/path-to-image/pancakes.jpg",
-    },
-    {
-      id: 6,
-      name: "Grilled Chicken with Rice",
-      description: "Grilled chicken breast served with steamed rice and veggies",
-      price: "LKR 1800.00",
-      image: "/path-to-image/grilled-chicken.jpg",
-    },
-    {
-      id: 7,
-      name: "Salmon Steak",
-      description: "Grilled salmon steak with mashed potatoes and lemon butter sauce",
-      price: "LKR 2500.00",
-      image: "/path-to-image/salmon.jpg",
-    }
 
   ],
 
@@ -123,50 +81,31 @@ const menuData = {
       name: "Crispy Tofu with Sweet Chili Sauce",
       description: "Extra-firm tofu, cornstarch, vegetable oil, sweet chili sauce, chopped cilantro, sesame seeds",
       price: "LKR 1600.00",
-      image: "/path-to-image/tofu.jpg",
+      image: "/Foods/1.png", 
     },
     {
       id: 2,
       name: "Vietnamese Spring Rolls",
       description: "Rice paper wrappers, rice vermicelli noodles, fresh herbs, carrots, bean sprouts, shrimp, dipping sauce",
       price: "LKR 1800.00",
-      image: "/path-to-image/spring-rolls.jpg",
+      image: "/Foods/2.png",
     },
     {
       id: 3,
       name: "Papaya Salad (Som Tum)",
       description: "Green papaya, cherry tomatoes, peanuts, dried shrimp, lime juice, fish sauce, palm sugar, chili",
       price: "LKR 1400.00",
-      image: "/path-to-image/papaya-salad.jpg",
+      image: "/Foods/3.png",
     },
     {
       id: 4,
       name: "Avocado Toast",
       description: "Toasted sourdough, smashed avocado, cherry tomatoes, and feta cheese",
       price: "LKR 1200.00",
-      image: "/path-to-image/avocado-toast.jpg",
+      image: "/Foods/4.png",
     },
-    {
-      id: 5,
-      name: "Pancakes with Honey",
-      description: "Fluffy pancakes served with honey and fresh fruits",
-      price: "LKR 1300.00",
-      image: "/path-to-image/pancakes.jpg",
-    },
-    {
-      id: 6,
-      name: "Grilled Chicken with Rice",
-      description: "Grilled chicken breast served with steamed rice and veggies",
-      price: "LKR 1800.00",
-      image: "/path-to-image/grilled-chicken.jpg",
-    },
-    {
-      id: 7,
-      name: "Salmon Steak",
-      description: "Grilled salmon steak with mashed potatoes and lemon butter sauce",
-      price: "LKR 2500.00",
-      image: "/path-to-image/salmon.jpg",
-    }
+
+ 
 
   ],
 
@@ -178,50 +117,30 @@ const menuData = {
       name: "Crispy Tofu with Sweet Chili Sauce",
       description: "Extra-firm tofu, cornstarch, vegetable oil, sweet chili sauce, chopped cilantro, sesame seeds",
       price: "LKR 1600.00",
-      image: "/path-to-image/tofu.jpg",
+      image: "/Foods/4.png", 
     },
     {
       id: 2,
       name: "Vietnamese Spring Rolls",
       description: "Rice paper wrappers, rice vermicelli noodles, fresh herbs, carrots, bean sprouts, shrimp, dipping sauce",
       price: "LKR 1800.00",
-      image: "/path-to-image/spring-rolls.jpg",
+      image: "/Foods/3.png",
     },
     {
       id: 3,
       name: "Papaya Salad (Som Tum)",
       description: "Green papaya, cherry tomatoes, peanuts, dried shrimp, lime juice, fish sauce, palm sugar, chili",
       price: "LKR 1400.00",
-      image: "/path-to-image/papaya-salad.jpg",
+      image: "/Foods/2.png",
     },
     {
       id: 4,
       name: "Avocado Toast",
       description: "Toasted sourdough, smashed avocado, cherry tomatoes, and feta cheese",
       price: "LKR 1200.00",
-      image: "/path-to-image/avocado-toast.jpg",
+      image: "/Foods/1.png",
     },
-    {
-      id: 5,
-      name: "Pancakes with Honey",
-      description: "Fluffy pancakes served with honey and fresh fruits",
-      price: "LKR 1300.00",
-      image: "/path-to-image/pancakes.jpg",
-    },
-    {
-      id: 6,
-      name: "Grilled Chicken with Rice",
-      description: "Grilled chicken breast served with steamed rice and veggies",
-      price: "LKR 1800.00",
-      image: "/path-to-image/grilled-chicken.jpg",
-    },
-    {
-      id: 7,
-      name: "Salmon Steak",
-      description: "Grilled salmon steak with mashed potatoes and lemon butter sauce",
-      price: "LKR 2500.00",
-      image: "/path-to-image/salmon.jpg",
-    }
+ 
 
   ]
 };
