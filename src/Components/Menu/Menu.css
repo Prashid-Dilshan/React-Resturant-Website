@@ -1,0 +1,89 @@
+/* Container */
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+.menu-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menu-nav a {
+  color: #888;
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.menu-nav a.active {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.menu-nav a:hover {
+  color: red;
+}
+
+/* Titles */
+.menu-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.menu-title span {
+  color: red;
+}
+
+/* Menu Grid */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Menu Item */
+.menu-item {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Image */
+.menu-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Text */
+.menu-item-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.menu-item-description {
+  color: gray;
+  margin-top: 5px;
+}
+
+.menu-item-price {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
