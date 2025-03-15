@@ -152,6 +152,8 @@ function Menu() {
     <div className="menu-container">
       <h1 className="menu-title">Check Our<span> Menu</span></h1>
 
+      <p>At PD Restaurant, our menu celebrates the rich flavors of Sri Lanka, offering a mix of traditional dishes and modern twists. From spicy curries and fresh seafood to delicious desserts, every dish is crafted with the finest local ingredients to provide an unforgettable dining experience.</p>
+
       <nav className="menu-nav">
         {Object.keys(menuData).map((category) => (
           <a

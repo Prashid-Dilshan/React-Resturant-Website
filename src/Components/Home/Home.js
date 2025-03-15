@@ -2,6 +2,7 @@ import React from 'react'
 import homeImage from '../../images/hero-carousel-1.jpg';
 import About from '../About/About'
 import "./Home.css"
+import Menu from '../Menu/Menu';
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
 
 
 <About></About>
+<Menu></Menu>
    </>
   )
 }
