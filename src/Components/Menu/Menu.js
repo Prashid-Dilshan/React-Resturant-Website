@@ -150,7 +150,7 @@ function Menu() {
 
   return (
     <div className="menu-container">
-      <h1 className="menu-title">Our<span> Menu</span></h1>
+      <h1 className="menu-title">Check Our<span> Menu</span></h1>
 
       <nav className="menu-nav">
         {Object.keys(menuData).map((category) => (
