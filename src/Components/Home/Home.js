@@ -3,6 +3,7 @@ import homeImage from '../../images/hero-carousel-1.jpg';
 import About from '../About/About'
 import "./Home.css"
 import Menu from '../Menu/Menu';
+import Chefs from '../Chefs/Chefs';
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
 
 <About></About>
 <Menu></Menu>
+<Chefs></Chefs>
    </>
   )
 }
