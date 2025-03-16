@@ -28,7 +28,10 @@ const chefs = [
 function Chefs() {
   return (
     <section className="chefs">
-      <h1>Meet Our Chefs</h1>
+      <h1>Meet Our<span> Chefs</span> </h1>
+
+      <p>At PD Restaurant, our chefs are the heart of our kitchen, bringing passion, expertise, and creativity to every dish. From masterful main courses to exquisite desserts, our talented team ensures every meal is a delightful experience. Meet the culinary artists behind our exceptional flavors!</p>
+
       <div className="chefs-container">
         {chefs.map((chef, index) => (
           <div className="chef-card" key={index}>
