@@ -21,8 +21,9 @@ h1 span {
 .aboutimg {
   float: left; /* Floats the image to the left */
   margin-right: 20px; /* Space between image and paragraph */
-  height: 450px; /* Adjust image height */
+  height: 400px; /* Adjust image height */
   margin-left: 40px;
+  padding-top: 50px;
 }
 
 /* Style for the paragraph */
@@ -80,6 +81,7 @@ p span{
 .left-section p {
   margin-bottom: 15px;
   line-height: 1.6;
+  color: black;
 }
 
 .left-section .learn-more {
