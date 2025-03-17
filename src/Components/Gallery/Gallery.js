@@ -2,14 +2,14 @@ import React from "react";
 import "./Gallery.css";
 
 const images = [
-  "https://source.unsplash.com/400x300/?restaurant,tables",
-  "https://source.unsplash.com/400x300/?restaurant,bar",
-  "https://source.unsplash.com/400x300/?restaurant,dining",
-  "https://source.unsplash.com/400x300/?restaurant,cafe",
-  "https://source.unsplash.com/400x300/?restaurant,food",
-  "https://source.unsplash.com/400x300/?restaurant,dinner",
-  "https://source.unsplash.com/400x300/?restaurant,party",
-  "https://source.unsplash.com/400x300/?restaurant,drinks",
+  "/Gallery/gallery-1.jpg",
+  "/Gallery/gallery-2.jpg",
+  "/Gallery/gallery-3.jpg",
+  "/Gallery/gallery-4.jpg",
+  "/Gallery/gallery-5.jpg",
+  "/Gallery/gallery-6.jpg",
+  "/Gallery/gallery-7.jpg",
+  "/Gallery/gallery-8.jpg",
 ];
 
 function Gallery() {
