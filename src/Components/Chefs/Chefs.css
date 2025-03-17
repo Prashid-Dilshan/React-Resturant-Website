@@ -19,6 +19,7 @@
   text-align: center;
   width: 400px;
   transition: transform 0.3s ease-in-out;
+  margin-bottom: 30px;
 }
 
 .chef-card:hover {
@@ -54,4 +55,5 @@ h4 {
 p {
   font-size: 14px;
   color: #555;
+  padding-bottom: 30px;
 }
