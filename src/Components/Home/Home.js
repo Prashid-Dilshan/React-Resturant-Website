@@ -4,6 +4,7 @@ import About from '../About/About'
 import "./Home.css"
 import Menu from '../Menu/Menu';
 import Chefs from '../Chefs/Chefs';
+import Gallery from '../Gallery/Gallery';
 
 function Home() {
   return (
@@ -27,6 +28,8 @@ function Home() {
 <About></About>
 <Menu></Menu>
 <Chefs></Chefs>
+<Gallery></Gallery>
+
    </>
   )
 }
