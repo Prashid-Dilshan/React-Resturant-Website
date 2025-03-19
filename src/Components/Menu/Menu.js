@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Menu.css';
+import Line from '../Line/Line';
 
 const menuData = {
 
@@ -149,10 +150,12 @@ function Menu() {
   const [activeCategory, setActiveCategory] = useState("Starters");
 
   return (
+<>
+
     <div className="menu-container">
       <h1 className="menu-title">Check Our<span> Menu</span></h1>
 
-      <p>At PD Restaurant, our menu celebrates the rich flavors of Sri Lanka, offering a mix of traditional dishes and modern twists. From spicy curries and fresh seafood to delicious desserts, every dish is crafted with the finest local ingredients to provide an unforgettable dining experience.</p>
+      <p className='Menu-p'>At PD Restaurant, our menu celebrates the rich flavors of Sri Lanka, offering a mix of traditional dishes and modern twists. From spicy curries and fresh seafood to delicious desserts, every dish is crafted with the finest local ingredients to provide an unforgettable dining experience.</p>
 
       <nav className="menu-nav">
         {Object.keys(menuData).map((category) => (
@@ -179,8 +182,11 @@ function Menu() {
             <p className="menu-item-price">{item.price}</p>
           </div>
         ))}
-      </div>
+      </div>    
     </div>
+  
+<Line></Line>
+</>
   );
 }
 

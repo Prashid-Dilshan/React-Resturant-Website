@@ -1,5 +1,6 @@
 import React from "react";
 import "./Gallery.css";
+import Line from '../Line/Line';
 
 const images = [
   "/Gallery/gallery-1.jpg",
@@ -14,6 +15,7 @@ const images = [
 
 function Gallery() {
   return (
+    <>
     <section className="gallery">
       <h2 className="gallery-title">
         Check <span>Our Gallery</span>
@@ -25,6 +27,10 @@ function Gallery() {
         ))}
       </div>
     </section>
+
+<Line></Line>
+
+    </>
   );
 }
 

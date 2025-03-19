@@ -1,5 +1,8 @@
 import React from "react";
 import "./Chefs.css";
+import Line from '../Line/Line';
+
+
 
 const chefs = [
   {
@@ -27,6 +30,8 @@ const chefs = [
 
 function Chefs() {
   return (
+
+    <>
     <section className="chefs">
       <h1 className="chef-title">Meet Our<span> Chefs</span> </h1>
 
@@ -42,7 +47,12 @@ function Chefs() {
           </div>
         ))}
       </div>
+    
     </section>
+
+    <Line></Line>
+
+    </> 
   );
 }
 

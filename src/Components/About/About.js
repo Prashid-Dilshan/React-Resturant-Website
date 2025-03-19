@@ -4,6 +4,7 @@ import aboutphoto from "../../images/about.jpg"
 import { FcPositiveDynamic } from "react-icons/fc";
 import { FcPortraitMode } from "react-icons/fc";
 import { FcTodoList } from "react-icons/fc";
+import Line from '../Line/Line';
 
 
 function About() {
@@ -94,6 +95,8 @@ Our menu is a vibrant celebration of Sri Lanka’s diverse culinary traditions, 
         </div>
       </div>
     </section>
+
+<Line></Line>
    </>
   )
 }

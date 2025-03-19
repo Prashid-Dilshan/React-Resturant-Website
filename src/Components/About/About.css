@@ -27,6 +27,7 @@ h1 span {
   height: 400px; /* Adjust image height */
   margin-left: 40px;
   padding-top: 50px;
+  
 }
 
 /* Style for the paragraph */
@@ -37,7 +38,8 @@ h1 span {
   line-height: 1.5; /* Improves readability */
   margin-top: 100px;
   margin-right: 60px;
-  font-weight: 500;
+  color: #666;
+  margin-bottom: 50px; 
 }
 
 p span{

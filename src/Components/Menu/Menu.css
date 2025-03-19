@@ -96,3 +96,12 @@ margin-bottom: -30px;
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+.Menu-p{
+  font-size: 1rem;
+  color: #666;
+  max-width: 800px;
+  margin: 10px auto 30px;
+  line-height: 1.6;
+  font-weight: bold;
+}
