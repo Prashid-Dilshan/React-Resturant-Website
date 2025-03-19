@@ -17,6 +17,7 @@ function Gallery() {
     <section className="gallery">
       <h2 className="gallery-title">
         Check <span>Our Gallery</span>
+        <p>Explore our Gallery Page to discover the vibrant moments and unique experiences that define us. From exciting events to our dedicated team, each image tells a story of creativity, passion, and innovation. Dive in and see how we bring ideas to life!</p>
       </h2>
       <div className="gallery-grid">
         {images.map((img, index) => (
