@@ -5,6 +5,7 @@ import "./Home.css"
 import Menu from '../Menu/Menu';
 import Chefs from '../Chefs/Chefs';
 import Gallery from '../Gallery/Gallery';
+import Contact from '../Contact/Contact';
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function Home() {
 <Menu></Menu>
 <Chefs></Chefs>
 <Gallery></Gallery>
+<Contact></Contact>
 
    </>
   )
