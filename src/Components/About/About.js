@@ -11,7 +11,7 @@ function About() {
   return (
    <>
    <div className='about'>
-   <h1>Learn More <span>About Us</span></h1>
+   <h1 className='About-name'>Learn More <span>About Us</span></h1>
    <img src={aboutphoto} alt="PD Restaurant" className='aboutimg'/>
 
    <p className='aboutp'>Welcome to <span>PD Restaurant</span> , where the rich culinary heritage of Sri Lanka comes alive in the heart of Colombo!

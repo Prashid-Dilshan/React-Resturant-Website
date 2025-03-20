@@ -12,7 +12,7 @@
 }
 
 .gallery-title span {
-  color: #ff6b6b; /* Highlight color for "Our Gallery" */
+  color: red; /* Highlight color for "Our Gallery" */
 }
 
 .gallery-title p {

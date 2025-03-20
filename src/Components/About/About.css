@@ -1,24 +1,17 @@
-
-
-/* Style for the heading */
-h1 {
-  color: rgb(0, 0, 0);
-  font-family: 'Dancing Script', cursive;
+.About-name{
+  font-size: 2.5rem;
+  color: #333;
   text-align: center;
-  font-size: 3rem;
   margin-top: 40px;
-  margin-bottom: 60px;
   font-weight: bold;
-  
 }
 
-/* Style for the highlighted span in the heading */
-h1 span {
-  color: rgb(255, 0, 0);
-  font-family: 'Dancing Script', cursive;
-  text-align: center;
-  font-size: 3rem;
+.About-name span{
+  color: red; /* Highlight color for "Our Gallery" */
 }
+
+
+
 
 /* Style for the image */
 .aboutimg {
@@ -36,7 +29,7 @@ h1 span {
   margin-left: 20px; /* Adjust as needed for spacing */
   font-size: 1.05rem; /* Adjust font size */
   line-height: 1.5; /* Improves readability */
-  margin-top: 100px;
+  margin-top: 70px;
   margin-right: 60px;
   color: #666;
   margin-bottom: 50px; 
