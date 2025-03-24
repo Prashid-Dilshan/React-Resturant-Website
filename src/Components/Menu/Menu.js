@@ -35,6 +35,21 @@ const menuData = {
       image: "/Foods/4.png",
     },
 
+    {
+      id: 3,
+      name: "Papaya Salad (Som Tum)",
+      description: "Green papaya, cherry tomatoes, peanuts, dried shrimp, lime juice, fish sauce, palm sugar, chili",
+      price: "LKR 1400.00",
+      image: "/Foods/6.png",
+    },
+    {
+      id: 4,
+      name: "Avocado Toast",
+      description: "Toasted sourdough, smashed avocado, cherry tomatoes, and feta cheese",
+      price: "LKR 1200.00",
+      image: "/Foods/5.png",
+    },
+
 
   ],
 
@@ -70,6 +85,21 @@ const menuData = {
       price: "LKR 1200.00",
       image: "/Foods/1.png",
     },
+    {
+      id: 3,
+      name: "Papaya Salad (Som Tum)",
+      description: "Green papaya, cherry tomatoes, peanuts, dried shrimp, lime juice, fish sauce, palm sugar, chili",
+      price: "LKR 1400.00",
+      image: "/Foods/9.jpg",
+    },
+    {
+      id: 4,
+      name: "Avocado Toast",
+      description: "Toasted sourdough, smashed avocado, cherry tomatoes, and feta cheese",
+      price: "LKR 1200.00",
+      image: "/Foods/13.jpg",
+    },
+
 
   ],
 
@@ -77,33 +107,34 @@ const menuData = {
 
 
   Lunch: [
+
     {
       id: 1,
       name: "Crispy Tofu with Sweet Chili Sauce",
       description: "Extra-firm tofu, cornstarch, vegetable oil, sweet chili sauce, chopped cilantro, sesame seeds",
       price: "LKR 1600.00",
-      image: "/Foods/1.png", 
+      image: "/Foods/7.jpg", 
     },
     {
       id: 2,
       name: "Vietnamese Spring Rolls",
       description: "Rice paper wrappers, rice vermicelli noodles, fresh herbs, carrots, bean sprouts, shrimp, dipping sauce",
       price: "LKR 1800.00",
-      image: "/Foods/2.png",
+      image: "/Foods/8.jpg",
     },
     {
       id: 3,
       name: "Papaya Salad (Som Tum)",
       description: "Green papaya, cherry tomatoes, peanuts, dried shrimp, lime juice, fish sauce, palm sugar, chili",
       price: "LKR 1400.00",
-      image: "/Foods/3.png",
+      image: "/Foods/9.jpg",
     },
     {
       id: 4,
       name: "Avocado Toast",
       description: "Toasted sourdough, smashed avocado, cherry tomatoes, and feta cheese",
       price: "LKR 1200.00",
-      image: "/Foods/4.png",
+      image: "/Foods/13.jpg",
     },
 
  
@@ -113,6 +144,8 @@ const menuData = {
 
 
   Dinner: [
+
+    
     {
       id: 1,
       name: "Crispy Tofu with Sweet Chili Sauce",
