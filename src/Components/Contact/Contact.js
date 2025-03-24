@@ -8,6 +8,8 @@ function Contact() {
         Contact <span>PD Restaurant</span>
       </h1>
 
+      <p className='contact-p'>We’re here to make your dining experience even better! Whether you have a question, need a reservation, or want to give feedback, feel free to reach out. Visit us at our Colombo location or send us a message—we’d love to hear from you! Your satisfaction is our priority, and we’re always happy to assist you.</p>
+
       <div className="contact-content">
         {/* Location Map */}
         <div className="contact-map">

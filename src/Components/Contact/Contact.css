@@ -130,3 +130,13 @@
     margin-top: 20px;
   }
 }
+
+
+.contact-p{
+  font-size: 1rem;
+  color: #666;
+  max-width: 800px;
+  margin: 10px auto 30px;
+  line-height: 1.6;
+  font-weight: 500;
+}
