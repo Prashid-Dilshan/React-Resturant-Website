@@ -6,6 +6,7 @@ import Menu from '../Menu/Menu';
 import Chefs from '../Chefs/Chefs';
 import Gallery from '../Gallery/Gallery';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer'
 
 function Home() {
   return (
@@ -31,6 +32,8 @@ function Home() {
 <Chefs></Chefs>
 <Gallery></Gallery>
 <Contact></Contact>
+<Footer></Footer>
+
 
    </>
   )
