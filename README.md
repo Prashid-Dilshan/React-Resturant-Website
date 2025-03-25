@@ -282,37 +282,10 @@ Use the form below to send us a message, and we'll get back to you soon. Whether
 
 
 
-
-# Stay Connected with PD Restaurant 🌐
-
-At the footer of our website, you’ll find all the important information and links to stay connected with us:
-
-## Address:
-OneGalleFace Road, Colombo, Sri Lanka
-
-## Contact Us:
-- **Phone**: +94 0765683395
-- **Email**: prashiddilshan0710@gmail.com
-
-## Opening Hours:
-- **Mon-Sat**: 9:00 AM - 11:00 PM
-- **Sunday**: Closed
-
-## Follow Us on Social Media 📱
-Stay updated and join our community online!  
-Follow us on:  
-- **[Facebook](https://www.facebook.com/share/Athc1wDLrQJ2Ptb4/?mibextid=LQQJ4d)**  
-- **[Instagram](https://www.instagram.com/prashid_dilshan/profilecard/?igsh=MXA3azhiOG9qN3I2aw==)**  
-- **[LinkedIn](https://www.linkedin.com/in/prashid-dilshan-ba054529b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)**
-
-## Copyright Information 📜
-© Copyright PD Restaurant - All Rights Reserved.  
-Designed by **Prashid Dilshan**
-
 ---
 
 ### Made by **Prashid Dilshan** ❤️
-This project was created by Prashid Dilshan as part of a front-end development exercise. 
+This project was created by Prashid Dilshan.
 
 <br>
 <br>
